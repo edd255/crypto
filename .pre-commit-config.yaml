@@ -1,0 +1,21 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-docstring-first
+    -   id: check-ast
+    -   id: check-yaml
+    -   id: detect-private-key
+    -   id: mixed-line-ending
+    -   id: name-tests-test
+-   repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+    -   id: black
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: ""
+    hooks:
+    -   id: mypy
+        args: [--strict]

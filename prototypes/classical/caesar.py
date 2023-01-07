@@ -2,6 +2,9 @@
 Implementation of the Caesar cipher.
 """
 
+import sys
+sys.path.insert(0, "../")
+
 import shift
 
 

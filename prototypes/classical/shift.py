@@ -2,6 +2,9 @@
 An implementation of the Shift cipher.
 """
 
+import sys
+sys.path.insert(0, "../")
+
 from utils import alphabet
 
 

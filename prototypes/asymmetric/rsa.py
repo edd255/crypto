@@ -2,6 +2,9 @@
 An implementation of the RSA encryption scheme, invented by Rivest, Shamir and Adleman.
 """
 
+import sys
+sys.path.insert(0, "../")
+
 from utils import maths
 
 

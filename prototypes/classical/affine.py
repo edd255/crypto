@@ -54,7 +54,7 @@ def decrypt(ciphertext: str, a: int, b: int) -> str:
         raise ValueError("a and alphabet size are not coprime")
 
     plaintext = ""
-    for character in plaintext:
+    for character in ciphertext:
         if alphabet.is_letter(character):
             x = alphabet.letter_to_position(character)
             plaintext += alphabet.position_to_letter(

@@ -43,7 +43,7 @@ def decrypt(ciphertext: str, key: int) -> str:
     """
 
     plaintext = ""
-    for character in plaintext:
+    for character in ciphertext:
         if alphabet.is_letter(character):
             plaintext += alphabet.shift_letter(character, key, True)
         else:
